@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/S0g5Ck7/Rectangle-4284-3.png",
+        "title": "Clean water for children",
+        "category": "Health ",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "description": "Access to clean and safe drinking water is a basic human right, but many communities around the world still lack this essential resource. Your donation will help us install water purification systems and provide clean water to those in need. Together, we can prevent waterborne diseases and improve the health and well-being of countless individuals and families.",
+        "price": 50
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/F7tDywZ/Rectangle-4284.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "description": "At our organization, we believe that education is the key to a brighter future for all. Your donation will help us provide quality education to underprivileged children who might not have had access otherwise. We are committed to ensuring that every child has the opportunity to learn and grow. Your support, no matter how big or small, can change lives and build a more educated society.",
+        "price": 25
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/4T92cW7/Rectangle-4284-1.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
+        "description": "Natural disasters can strike at any time, leaving communities devastated. Your donation provides critical humanitarian aid, including emergency shelter, food, and medical care, to those affected by disasters. Your support helps communities rebuild and recover during their greatest times of need.",
+        "price": 30
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/Jt6hWCr/Rectangle-4284-2.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
+        "description": "Your generous donation will go a long way in helping us feed the hungry in our community. Every dollar you contribute provides nutritious meals to those in need. Together, we can make a significant difference in the lives of individuals and families who are struggling with food insecurity. Join us in the fight against hunger today.",
+        "price": 40
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/Jt6hWCr/Rectangle-4284-2.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
+        "description": "Your generous donation will go a long way in helping us feed the hungry in our community. Every dollar you contribute provides nutritious meals to those in need. Together, we can make a significant difference in the lives of individuals and families who are struggling with food insecurity. Join us in the fight against hunger today.",
+        "price": 35
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/4T92cW7/Rectangle-4284-1.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
+        "description": "Natural disasters can strike at any time, leaving communities devastated. Your donation provides critical humanitarian aid, including emergency shelter, food, and medical care, to those affected by disasters. Your support helps communities rebuild and recover during their greatest times of need.",
+        "price": 20
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/F7tDywZ/Rectangle-4284.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "description": "At our organization, we believe that education is the key to a brighter future for all. Your donation will help us provide quality education to underprivileged children who might not have had access otherwise. We are committed to ensuring that every child has the opportunity to learn and grow. Your support, no matter how big or small, can change lives and build a more educated society.",
+        "price": 30
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/S0g5Ck7/Rectangle-4284-3.png",
+        "title": "Clean water for children",
+        "category": "Health ",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "description": "Access to clean and safe drinking water is a basic human right, but many communities around the world still lack this essential resource. Your donation will help us install water purification systems and provide clean water to those in need. Together, we can prevent waterborne diseases and improve the health and well-being of countless individuals and families.",
+        "price": 45
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/S0g5Ck7/Rectangle-4284-3.png",
+        "title": "Clean water for children",
+        "category": "Health ",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "description": "Access to clean and safe drinking water is a basic human right, but many communities around the world still lack this essential resource. Your donation will help us install water purification systems and provide clean water to those in need. Together, we can prevent waterborne diseases and improve the health and well-being of countless individuals and families.",
+        "price": 25
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/F7tDywZ/Rectangle-4284.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "description": "At our organization, we believe that education is the key to a brighter future for all. Your donation will help us provide quality education to underprivileged children who might not have had access otherwise. We are committed to ensuring that every child has the opportunity to learn and grow. Your support, no matter how big or small, can change lives and build a more educated society.",
+        "price": 40
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/4T92cW7/Rectangle-4284-1.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
+        "description": "Natural disasters can strike at any time, leaving communities devastated. Your donation provides critical humanitarian aid, including emergency shelter, food, and medical care, to those affected by disasters. Your support helps communities rebuild and recover during their greatest times of need.",
+        "price": 20
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/Jt6hWCr/Rectangle-4284-2.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
+        "description": "Your generous donation will go a long way in helping us feed the hungry in our community. Every dollar you contribute provides nutritious meals to those in need. Together, we can make a significant difference in the lives of individuals and families who are struggling with food insecurity. Join us in the fight against hunger today.",
+        "price": 30
+    }
+]
