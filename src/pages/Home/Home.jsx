@@ -1,13 +1,17 @@
 
-import { useLoaderData } from "react-router-dom";
+import { useEffect, useState } from "react";
 import CardDonation from "../../components/CardDonation/CardDonation";
 import Search from "../../components/Search/Search";
 
 
 const Home = () => {
-    const donations = useLoaderData();
-    //console.log(donations);
-
+    
+    const [donations, setDonations] = useState([]);
+    useEffect(() => {
+        fetch('/donation.json')
+            .then(res => res.json())
+            .then(data => setDonations(data))
+    }, [])
     return (
         <div className="md:container mx-auto">
             <Search></Search>
