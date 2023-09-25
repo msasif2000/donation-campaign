@@ -1,9 +1,12 @@
 
+import Header from "../../components/Header/Header";
+
 
 const Home = () => {
     return (
-        <div>
-            <h2>home</h2>
+        <div className="md:container mx-auto">
+            <Header></Header>
+            
         </div>
     );
 };
