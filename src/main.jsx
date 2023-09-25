@@ -7,28 +7,30 @@ import {
 import './index.css';
 import Home from './pages/Home/Home';
 import ErrorPage from './components/ErrorPage/ErrorPage';
-import Donation from './pages/Donation/Donation';
 import Statistics from './pages/Statistics/Statistics';
-import Navbar from './components/Navbar/Navbar';
+import Root from './components/Root/Root';
+import DonationDetails from './components/DonationDetails/DonationDetails';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home></Home>,
+    element: <Root></Root>,
     errorElement: <ErrorPage></ErrorPage>,
-    loader: () => fetch('/donation.json'),
-  },
-  {
-    path:"/",
-    element:<Navbar></Navbar>,
-    children:[
+
+    children: [
       {
-        path: "/donation",
-        element: <Donation></Donation>,
+        path: "/",
+        element: <Home></Home>,
+        loader: () => fetch('/donation.json')
       },
       {
         path: "/statistics",
         element: <Statistics></Statistics>
+      },
+      {
+        path: "/DonationDetails/:id",
+        element: <DonationDetails></DonationDetails>,
+        loader: () => fetch('/donation.json')
       }
     ]
   }
