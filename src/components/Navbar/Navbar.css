@@ -10,4 +10,5 @@ a{
 
 a.active{
     color: #c51717;
+    text-decoration: underline;
 }
