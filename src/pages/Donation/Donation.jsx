@@ -32,7 +32,7 @@ const Donation = () => {
                     donated.slice(0, dataLength).map(donation => <DonatedDetail key={donation.id} donation={donation}></DonatedDetail>)
                 }
             </div>
-            <div className={dataLength >= donated.length && 'hidden'}>
+            <div className={dataLength == donated.length && 'hidden'}>
                 <button onClick={() => setDataLength(donated.length)} className="btn bg-green-500 text-white flex mx-auto mb-8 hover:text-black" >See All</button>
             </div>
         </div>
