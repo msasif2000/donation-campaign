@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import CardDonation from "../../components/CardDonation/CardDonation";
 import Search from "../../components/Search/Search";
 
+
 const Home = () => {
     const [donations, setDonations] = useState([]);
     const [displayDonations, setDisplayDonations] = useState([]);

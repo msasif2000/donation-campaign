@@ -22,7 +22,7 @@ const CardDonation = ({ donation }) => {
     return (
 
             <Link to={`/DonationDetails/${id}`}>
-                <div style={cardStyle} className='md:container mx-auto mb-24'>
+                <div style={cardStyle} className='md:container mx-auto mb-24 md:h-[280px]'>
                     <img src={image} alt="" />
                     <p style={catStyle}>{category}</p>
                     <p className="pb-2 px-2 ml-3 text-xl font-bold">{title}</p>

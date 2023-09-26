@@ -33,7 +33,7 @@ const Donation = () => {
                 }
             </div>
             <div className={dataLength >= donated.length && 'hidden'}>
-                <button onClick={() => setDataLength(donated.length)} className="btn bg-green-500 text-white flex mx-auto mb-8" >See All</button>
+                <button onClick={() => setDataLength(donated.length)} className="btn bg-green-500 text-white flex mx-auto mb-8 hover:text-black" >See All</button>
             </div>
         </div>
     );

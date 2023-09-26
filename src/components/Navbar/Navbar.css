@@ -4,7 +4,7 @@ a{
     margin: 0 1rem;
     transition: all 0.2s ease-in;
     &:hover{
-        color: #c51717;
+        color: #490dee;
     }
 }
 

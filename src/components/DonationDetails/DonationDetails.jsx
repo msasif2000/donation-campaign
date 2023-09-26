@@ -19,12 +19,15 @@ const DonationDetails = () => {
             pauseOnHover: true,   
             });
     }
+    const bgStyle = {
+        backgroundColor: donation.text_color
+    }
     return (
         <div>
             <div className="m-24 md:w-4/6 w-5/6 mx-auto relative">
                 <img className=" mx-auto w-full  object-cover rounded-xl" src={donation.image} alt="" />
                 <div className=" bottom-0 w-full bg-blue-200 bg-opacity-50 p-3 absolute rounded-b-xl">
-                    <button onClick={handleDonation} className="bg-[#FF444A] py-2 px-5 rounded text-white">Donate ${donation.price}</button>
+                    <button onClick={handleDonation} style={bgStyle} className=" py-2 px-5 rounded text-white">Donate ${donation.price}</button>
                     <ToastContainer />
                 </div>
             </div>

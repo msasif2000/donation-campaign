@@ -25,9 +25,9 @@ const DonatedDetail = ({donation}) => {
         margin: "8px -15px"
     }
     return (
-        <div  style={cardStyle} className='flex space-x-8'>
+        <div  style={cardStyle} className='flex md:space-x-8 space-x-2'>
             <img src={donation.image} className='w-1/3 ' alt="" /> 
-            <div className='flex flex-col justify-center pr-16'>
+            <div className='flex flex-col justify-center'>
                 <h3 style={catStyle}>{donation.category}</h3>
                 <h2 className='text-black font-bold text-xl'>{donation.title}</h2>
                 <p className='font-bold'>${donation.price}</p>
