@@ -16,8 +16,8 @@ const DonationDetails = () => {
             autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: true,
-            pauseOnHover: true,   
-            });
+            pauseOnHover: true,
+        });
     }
     const bgStyle = {
         backgroundColor: donation.text_color
@@ -32,8 +32,8 @@ const DonationDetails = () => {
                 </div>
             </div>
             <div className="my-16 md:w-4/6 w-5/6 mx-auto">
-                <h2 className="font-bold text-3xl py-8">{donation.title}</h2>
-                <p>{donation.description}</p>
+                <h2 className="font-bold text-3xl md:py-6">{donation.title}</h2>
+                <p className="pt-2">{donation.description}</p>
             </div>
         </div>
     );

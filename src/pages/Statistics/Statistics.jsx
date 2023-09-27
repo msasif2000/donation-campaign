@@ -55,7 +55,7 @@ const Statistics = () => {
                         cy="50%"
                         labelLine={false}
                         label={renderCustomizedLabel}
-                        outerRadius={150}
+                        outerRadius={120}
                         fill="#8884d8"
                         dataKey="value"
                     >
@@ -63,18 +63,18 @@ const Statistics = () => {
                             <Cell key={`cell-${index}`} fill={COLORS[index]} />
                         ))}
                     </Pie>
-                   
+
                 </PieChart>
             </div>
             <div className="md:flex justify-center gap-12 p-4 mx-auto">
-                 <div className="flex gap-2 items-center">
+                <div className="flex gap-2 items-center">
                     <p>Your Donation</p>
                     <p className="bg-[#00C49F] w-[80px] h-[15px]"></p>
-                 </div>
-                 <div className="flex gap-2 items-center">
-                 <p>Total Donation</p>
+                </div>
+                <div className="flex gap-2 items-center">
+                    <p>Total Donation</p>
                     <p className="bg-[#FF444A] w-[80px] h-[15px]"></p>
-                 </div>
+                </div>
             </div>
         </div>
     );

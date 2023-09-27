@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="md:flex items-center justify-between pt-8">
-                <div className="flex items-center gap-4 ">
+                <div className="flex items-center md:pl-0 pl-12 gap-4 ">
                     <img className="h-16 pl-4" src="https://i.ibb.co/D8zsKqv/Group.png" alt="logo" />
                     <div className="">
                         <h2 className="text-[#FF444A] font-bold text-3xl">Donation</h2>

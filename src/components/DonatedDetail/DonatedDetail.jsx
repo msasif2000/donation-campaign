@@ -1,6 +1,6 @@
 import { PropTypes } from 'prop-types';
 import { Link } from 'react-router-dom';
-const DonatedDetail = ({donation}) => {
+const DonatedDetail = ({ donation }) => {
     const cardStyle = {
         backgroundColor: donation.card_bg_color,
         color: donation.text_color,
@@ -10,28 +10,23 @@ const DonatedDetail = ({donation}) => {
     }
     const catStyle = {
         backgroundColor: donation.category_bg_color,
-        
         width: "fit-content",
-        padding: "4px 8px",
         borderRadius: "5px",
-        margin: "8px 0px",
     }
     const btnStyle = {
         backgroundColor: donation.text_color,
-        color:"white",
-        padding: "4px 8px",
+        color: "white",
         borderRadius: "5px",
         width: "fit-content",
-        margin: "8px -15px"
     }
     return (
-        <div  style={cardStyle} className='flex md:space-x-8 space-x-2'>
-            <img src={donation.image} className='w-1/3 ' alt="" /> 
+        <div style={cardStyle} className='flex md:space-x-8 space-x-2'>
+            <img src={donation.image} className='md:w-1/3 w-2/5' alt="" />
             <div className='flex flex-col justify-center'>
-                <h3 style={catStyle}>{donation.category}</h3>
-                <h2 className='text-black font-bold text-xl'>{donation.title}</h2>
+                <h3 className='py-[2px] px-2' style={catStyle}>{donation.category}</h3>
+                <h2 className='text-black font-bold md:text-xl'>{donation.title}</h2>
                 <p className='font-bold'>${donation.price}</p>
-                <Link to={`/DonationDetails/${donation.id}`}><button style={btnStyle}>View Details</button></Link>
+                <Link to={`/DonationDetails/${donation.id}`}><button className='py-[2px] px-2 -ml-4' style={btnStyle}>View Details</button></Link>
             </div>
         </div>
     );

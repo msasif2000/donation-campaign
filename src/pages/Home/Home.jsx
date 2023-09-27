@@ -30,7 +30,7 @@ const Home = () => {
     return (
         <div className="md:container mx-auto">
             <Search handleSearchSubmit={handleSearchSubmit}></Search>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
                 {displayDonations.map(donation => (
                     <CardDonation key={donation.id} donation={donation} handleSearchSubmit={handleSearchSubmit} />
                 ))}
